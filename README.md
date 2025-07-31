@@ -3,11 +3,6 @@
 > **“Time is not a timestamp, but the meaning-change we perceive.”**  
 > Official implementation of **RTG** from  
 > **_Relational-Time Graph Neural Networks for Session-Based Prediction_** (arXiv 2025).
-
-<p align="center">
-  <img width="450" src="docs/rtg_architecture.svg" alt="Δ̂ + World-Sync architecture">
-</p>
-
 ---
 
 ## 1  Main ideas
