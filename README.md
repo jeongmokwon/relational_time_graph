@@ -56,9 +56,10 @@ python rtg_ws_train.py --device cuda --ws_keep 0.5   # GPU
 
 ## 4 Reproducing Table 5
 python rtg_ws_train.py --device cuda --ws_keep 1.0 --seeds 15 42 100
-### expected: F1 ≈ 0.412 ± 0.002
+#### expected: F1 ≈ 0.412 ± 0.002
 
 ## 5 Citation
+```bibtex
 @misc{▸kim2025rtg,
   title   = {Relational-Time Graph Neural Networks},
   author  = {Jeongmo Kwon},
@@ -67,6 +68,7 @@ python rtg_ws_train.py --device cuda --ws_keep 1.0 --seeds 15 42 100
   archivePrefix = {arXiv},
   primaryClass = {cs.LG}
 }
+```
 
 ## 6 License
 MIT – see LICENSE.
