@@ -1,13 +1,16 @@
 # RTG — Relational-Time GNN
 
-> **“Time is not a timestamp, but the meaning-change we perceive.”**  
+> **“Time is not a timestamp, but the change itself.”**  
 > Official implementation of **RTG** from  
 > **_Relational-Time Graph Neural Networks for Session-Based Prediction_** (arXiv 2025).
 ---
 
 ## 1  Main ideas
-* **Δ̂ edge attribute** – learnable scalar for *semantic* change between actions.  
-* **World-Sync edges** – link users who touched the same item in the same 30-min bucket.
+* **Δ̂ edge attribute** – each Δ̂ is a learned scalar for perceived change between actions.
+* **Δ̂ sequence** – Temporal trajectory of a single user (series of Δ̂ scalars) 
+* **World-Sync edges** – World-Sync edges align Δ̂-fields across users, enabling RTG to capture both individual and social time perception.
+* **Δ̂-field** –  Emergent field of aligned Δ̂ sequences across users via World-Sync edges
+
 
 Full details → [paper](▸ arXiv URL).
 
