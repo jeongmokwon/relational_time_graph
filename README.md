@@ -23,12 +23,15 @@ Full details → [paper](▸ arXiv URL).
 ```bash
 git clone https://github.com/jeongmokwon/relational_time_graph.git
 cd relational_time_graph
-pip install -r requirements.txt         # basic deps
-# optional CUDA extensions for torch-geometric
+pip install -r requirements.txt            # base deps
+
+# CPU wheels
 pip install torch-scatter torch-sparse -f \
-https://data.pyg.org/whl/torch-2.1.0+cpu.html      # ⇐ CPU
-pip install torch-scatter torch-sparse -f \
-https://data.pyg.org/whl/torch-2.1.0+cu118.html  # ⇐ CUDA 11.8
+https://data.pyg.org/whl/torch-2.1.0+cpu.html
+
+# CUDA 11.8 wheels (optional)
+# pip install torch-scatter torch-sparse -f \
+# https://data.pyg.org/whl/torch-2.1.0+cu118.html
 ```
 
 ### 2.2 Dataset
