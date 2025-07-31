@@ -35,10 +35,13 @@ https://data.pyg.org/whl/torch-2.1.0+cpu.html
 ```
 
 ### 2.2 Dataset
+We use the **RetailRocket Ecommerce “events.csv”** file (Kaggle).
+
 ```bash
-mkdir data
-wget -P data https://zenodo.org/record/▸dataset_id/files/events.csv
+./scripts/get_data.sh          # downloads to data/events.csv
 ```
+Source (CC BY 4.0): https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset
+
 
 ### 2.3 Run
 ```bash
