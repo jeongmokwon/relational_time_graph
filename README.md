@@ -60,7 +60,7 @@ python rtg_ws_train.py --device cuda --ws_keep 1.0 --seeds 15 42 100
 
 ## 5 Citation
 ```bibtex
-@misc{▸kim2025rtg,
+@misc{kwon025rtg,
   title   = {Relational-Time Graph Neural Networks},
   author  = {Jeongmo Kwon},
   year    = {2025},
