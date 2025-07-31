@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# relational_time_graph
-=======
 # RTG — Relational-Time GNN
 
 > **“Time is not a timestamp, but the meaning-change we perceive.”**  
@@ -74,4 +71,3 @@ python rtg_ws_train.py --device cuda --ws_keep 1.0 --seeds 15 42 100
 MIT – see LICENSE.
 
 <p align="center">Feel free to open an issue or PR !</p>
->>>>>>> 1e69614 (init: code + README + requirements)
